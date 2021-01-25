@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img class="back" src="https://i.imgur.com/5JDXt8M.jpg">
+    <img class="back" src="https://raw.githubusercontent.com/hcy13/ipta/master/photo/IMG_6815.PNG">
 
     <div class="upper">
     <div class="sch">
@@ -32,19 +32,18 @@
         </div>
       </div>
 
+    <div class="box4"></div>
+
     <div class="under">
       <div class="down">
-        <p>國立清華大學藝術學院</p>
+        <p class="aa">國立清華大學藝術學院</p>
       </div>
       <div class="adress">
         <p>國立清華大學藝術學院學士班
   30014新竹市南大路521號（教學大樓3F）</p>
       </div>
       <div class="tel">
-        <p>+886-3-5715131 #78802 / </p>
-      </div>
-      <div class="email">
-        <p>ipta@my.nthu.edu.tw</p>
+        <p class="hi">+886-3-5715131 #78802 ipta@my.nthu.edu.tw/ </p>
       </div>
     </div>
 
@@ -53,12 +52,16 @@
 </template>
 
 <style>
+.box4{
+  height: 50px;
+    width:100%;
+}
 .back{
   position: fixed;
   left:0px;
+  top:-100px;
   width:100%;
-  top:-510px;
-  z-index: 0;
+  z-index: -1;
 }
 .wordblock1, .wordblock2{
   position:absolute;
@@ -74,7 +77,7 @@
   padding-top: 60px;
 }
 body{
-  background-color: black;
+  
   color: white;
 }
 .upper{
@@ -89,14 +92,7 @@ body{
   height: 1000px;
   left: 62px;
   top: 237px;
-  background: rgba(52, 47, 47, 0.7);
-  z-index: 0;
-}
-.under{
-  height:198px;
-  width:100%;
-  padding-bottom:0px;
-  background: rgba(52, 47, 47, 0.7);
+  background: rgba(52, 47, 47, 0.8);
   z-index: 0;
 }
 .cha{
@@ -156,10 +152,11 @@ body{
   line-height: 21px;
 }
 .down{
-  width: 226px;
-  height: 28px;
+  width:200px;
+  height: 0px;
   left: 121px;
-  top: 1074px;
+  padding-top:0px;
+  padding-right:0;
 
   font-family: Roboto;
   font-style: normal;
@@ -171,10 +168,11 @@ body{
   color: #FFFFFF;
 }
 .adress{
-  width: 200px;
-  height: 42px;
-  padding-left: 44px;
-  padding-top: 0px;
+    position:absolute;
+    width:200px;
+  height: 20px;
+  padding-left: 234px;
+  padding-top: 0;
 
   font-family: Roboto;
   font-style: normal;
@@ -185,24 +183,10 @@ body{
   color: #FFFFFF;
 }
 .tel{
-  width: 210px;
-  height: 21px;
-  padding-left: 228px;
-  top: 63px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-
-  color: #FFFFFF;
-}
-.email{
-  width: 169px;
-  height: 21px;
-  padding-left: 428px;
-  padding-top: 0px;
+    width:150px;
+  height: 5px;
+  padding-left: 450px;
+  top:-10px;
 
   font-family: Roboto;
   font-style: normal;
@@ -238,7 +222,5 @@ h3{
 
   color: #FFFFFF;
 }
-
-
 
 </style>

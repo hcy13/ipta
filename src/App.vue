@@ -18,14 +18,16 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   font-size: 12px;
-  background-color: black;
+  
 }
 
 #nav {
-  width:100vw;
+  width:95vw;
   text-align:right;
   padding: 30px;
   padding-top: 70px;
+  padding-left:0px;
+  padding-right:0px;
   left:0px;
 }
 
@@ -36,5 +38,15 @@
 
 #nav a.router-link-exact-active {
   color:coral;
+}
+.under{
+  height:100px;
+  width:100%;
+  padding-bottom:0px;
+  background: rgba(52, 47, 47, 0.7);
+  z-index: 0;
+}
+.aa{
+    padding-top:15px;
 }
 </style>
