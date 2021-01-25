@@ -7,7 +7,7 @@
       <p>國立清華大學藝術學院</p>
     </div>
     </div>
-    <div class="box"><div class="head">藝術學院學士班</div><img class="photo" src="http://ipta.nthu.edu.tw/wp-content/themes/hestia/assets/img/slider2.jpg">
+    <div class="box"><img class="photo" src="http://ipta.nthu.edu.tw/wp-content/themes/hestia/assets/img/slider2.jpg">
     
     </div>
 
