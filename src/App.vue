@@ -44,7 +44,7 @@
   width:100%;
   padding-bottom:0px;
   background: rgba(52, 47, 47, 0.7);
-  z-index: 0;
+  z-index: 1;
 }
 .aa{
     padding-top:15px;

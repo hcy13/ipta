@@ -69,7 +69,7 @@ body{
 .photo{
     padding-top:30px;
     width:100%;
-    top:500px;
+    height:42vw;
     z-index: -10;
 }
 .down{
@@ -116,9 +116,5 @@ body{
   line-height: 21px;
 
   color: #FFFFFF;
-}
-.head{
-    z-index: 100;
-    position:absolute;
 }
 </style>
